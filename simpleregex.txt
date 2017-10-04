@@ -1,0 +1,3 @@
+(\bhello world\b)
+\b[A-Za-z]*[a|e|i|o|u]{3,}[A-Za-z]*\b
+([A-Z]{2})([0-9]{3,4}[\r\n])

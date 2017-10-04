@@ -1,0 +1,1 @@
+Which year:{'1930': <__main__.MyInfo object at 0x10c48d828>, '1940': <__main__.MyInfo object at 0x10d610e80>, '1941': <__main__.MyInfo object at 0x10d610e48>, '1942': <__main__.MyInfo object at 0x10d614438>, '1943': <__main__.MyInfo object at 0x10d614710>, '1944': <__main__.MyInfo object at 0x10d614b70>}
