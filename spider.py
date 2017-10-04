@@ -57,7 +57,12 @@ if len(sys.argv) < 2:
         % sys.argv[0])
 
 filename = sys.argv[1]
-info = infolist[filename]
-for k, v in info.ranklist:
-    line = "%s: %.3f" % (k, v)
-    print(line)
+
+try:
+    info = infolist[filename]
+except KeyError as e:
+    print("Please input the proper year!")
+else:
+    for k, v in info.ranklist:
+        line = "%s: %.3f" % (k, v)
+        print(line)
